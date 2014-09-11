@@ -1,0 +1,2830 @@
+fileFormatVersion: 2
+guid: b18ed04ea6dfa7c41b15744afd3925c1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ARM_MAIN_CONT_L
+    100002: ARM_MAIN_CONT_R
+    100004: BICEP_L
+    100006: BICEP_R
+    100008: CharBones
+    100010: ELBOW_L
+    100012: ELBOW_R
+    100014: FINGER_MAIN_CONT_L
+    100016: FINGER_MAIN_CONT_R
+    100018: FOOT_IK_L
+    100020: FOOT_IK_MAIN_L
+    100022: FOOT_IK_MAIN_R
+    100024: FOOT_IK_R
+    100026: FOOT_L
+    100028: FOOT_R
+    100030: FOREARM_L
+    100032: FOREARM_R
+    100034: HEAD
+    100036: HIP_L
+    100038: HIP_R
+    100040: KNEE_L
+    100042: KNEE_R
+    100044: MIDDLE1_L
+    100046: MIDDLE1_R
+    100048: MIDDLE2_L
+    100050: MIDDLE2_R
+    100052: MIDDLE3_L
+    100054: MIDDLE3_R
+    100056: MIDDLE_BEND_L
+    100058: MIDDLE_BEND_R
+    100060: MIDDLE_CONT_L
+    100062: MIDDLE_CONT_R
+    100064: NECK
+    100066: ROLL_BACK_L
+    100068: ROLL_BACK_R
+    100070: ROLL_FRONT_L
+    100072: ROLL_FRONT_R
+    100074: ROLL_MAIN_L
+    100076: ROLL_MAIN_R
+    100078: ROOT
+    100080: SHIN_L
+    100082: SHIN_R
+    100084: SHOULDER_L
+    100086: SHOULDER_R
+    100088: Stormtrooper
+    100090: THIGH_L
+    100092: THIGH_R
+    100094: THUMB1_L
+    100096: THUMB1_R
+    100098: THUMB2_L
+    100100: THUMB2_R
+    100102: THUMB_BEND_L
+    100104: THUMB_BEND_R
+    100106: THUMB_CONT_L
+    100108: THUMB_CONT_R
+    100110: TOES_L
+    100112: TOES_R
+    100114: TORSO
+    100116: //RootNode
+    100118: WAIST
+    400000: ARM_MAIN_CONT_L
+    400002: ARM_MAIN_CONT_R
+    400004: BICEP_L
+    400006: BICEP_R
+    400008: CharBones
+    400010: ELBOW_L
+    400012: ELBOW_R
+    400014: FINGER_MAIN_CONT_L
+    400016: FINGER_MAIN_CONT_R
+    400018: FOOT_IK_L
+    400020: FOOT_IK_MAIN_L
+    400022: FOOT_IK_MAIN_R
+    400024: FOOT_IK_R
+    400026: FOOT_L
+    400028: FOOT_R
+    400030: FOREARM_L
+    400032: FOREARM_R
+    400034: HEAD
+    400036: HIP_L
+    400038: HIP_R
+    400040: KNEE_L
+    400042: KNEE_R
+    400044: MIDDLE1_L
+    400046: MIDDLE1_R
+    400048: MIDDLE2_L
+    400050: MIDDLE2_R
+    400052: MIDDLE3_L
+    400054: MIDDLE3_R
+    400056: MIDDLE_BEND_L
+    400058: MIDDLE_BEND_R
+    400060: MIDDLE_CONT_L
+    400062: MIDDLE_CONT_R
+    400064: NECK
+    400066: ROLL_BACK_L
+    400068: ROLL_BACK_R
+    400070: ROLL_FRONT_L
+    400072: ROLL_FRONT_R
+    400074: ROLL_MAIN_L
+    400076: ROLL_MAIN_R
+    400078: ROOT
+    400080: SHIN_L
+    400082: SHIN_R
+    400084: SHOULDER_L
+    400086: SHOULDER_R
+    400088: Stormtrooper
+    400090: THIGH_L
+    400092: THIGH_R
+    400094: THUMB1_L
+    400096: THUMB1_R
+    400098: THUMB2_L
+    400100: THUMB2_R
+    400102: THUMB_BEND_L
+    400104: THUMB_BEND_R
+    400106: THUMB_CONT_L
+    400108: THUMB_CONT_R
+    400110: TOES_L
+    400112: TOES_R
+    400114: TORSO
+    400116: //RootNode
+    400118: WAIST
+    4300000: Stormtrooper
+    7400000: Default Take
+    7400002: Combat_Roll
+    7400004: Death
+    7400006: Idle_Cycle
+    7400008: Jump
+    7400010: Land
+    7400012: Look_Down
+    7400014: Look_Left
+    7400016: Look_Right
+    7400018: Look_Up
+    7400020: Melee
+    7400022: Run_Back_Cycle
+    7400024: Run_Cycle
+    7400026: Shoot
+    7400028: Strafe_Left_Cycle
+    7400030: Strafe_Right_Cycle
+    7400032: Turn_Left
+    7400034: Turn_Right
+    7400036: Idle_Cycle0
+    7400038: Run_Cycle0
+    9500000: //RootNode
+    13700000: Stormtrooper
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Cycle0
+      takeName: Run_Cycle
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Combat_Roll
+      takeName: Combat_Roll
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Death
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_Cycle
+      takeName: Idle_Cycle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Jump
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Land
+      takeName: Land
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Look_Down
+      takeName: Look_Down
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Look_Left
+      takeName: Look_Left
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Look_Right
+      takeName: Look_Right
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Look_Up
+      takeName: Look_Up
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Melee
+      takeName: Melee
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Back_Cycle
+      takeName: Run_Back_Cycle
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Cycle
+      takeName: Run_Cycle
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Shoot
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strafe_Left_Cycle
+      takeName: Strafe_Left_Cycle
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strafe_Right_Cycle
+      takeName: Strafe_Right_Cycle
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn_Left
+      takeName: Turn_Left
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Turn_Right
+      takeName: Turn_Right
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CharBones
+        weight: 1
+      - path: CharBones/ROOT
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/KNEE_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_BACK_L/ROLL_FRONT_L/FOOT_IK_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_L/ROLL_MAIN_L
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/KNEE_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_BACK_R/ROLL_FRONT_R/FOOT_IK_R
+        weight: 1
+      - path: CharBones/ROOT/FOOT_IK_MAIN_R/ROLL_MAIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_L/THIGH_L/SHIN_L/FOOT_L/TOES_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/HIP_R/THIGH_R/SHIN_R/FOOT_R/TOES_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/ELBOW_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/FINGER_MAIN_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE2_L/MIDDLE3_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/MIDDLE1_L/MIDDLE_BEND_L/MIDDLE_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB1_L/THUMB2_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_L/THUMB_BEND_L/THUMB_CONT_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/ELBOW_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/FINGER_MAIN_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE2_R/MIDDLE3_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/MIDDLE1_R/MIDDLE_BEND_R/MIDDLE_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB1_R/THUMB2_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/ARM_MAIN_CONT_R/THUMB_BEND_R/THUMB_CONT_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/NECK/HEAD
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: CharBones/ROOT/WAIST/TORSO/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Stormtrooper
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
