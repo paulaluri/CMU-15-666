@@ -4,13 +4,18 @@ using System.Collections;
 public class AIAlign : AIBehaviour {
 	private Transform trans;
 
-	private float TARGET_RADIUS = 1f;
-	private float SLOW_RADIUS = 2f;
-	private float TIME_TO_TARGET = 0.1f;
+	//private float TARGET_RADIUS = 1f;
+	//private float SLOW_RADIUS = 2f;
+	//private float TIME_TO_TARGET = 0.1f;
 
-	public AIAlign(AIState state, Transform obj){
+	public AIAlign(AIState state, Transform obj, float weight){
 		trans = obj;
 		this.State = state;
+		this.Weight = weight;
+	}
+
+	public override AIBehaviourType BehaviourType {
+		get { return AIBehaviourType.Align; }
 	}
 	
 	public override AIDynamic GetDynamics(){

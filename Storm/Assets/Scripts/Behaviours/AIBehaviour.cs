@@ -1,6 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum AIBehaviourType{
+	Wander,
+	ReachGoal,
+	Align,
+	Separate,
+	CollisionAvoid,
+	Cohere,
+	ObjectAvoid,
+	Seek,
+	Flee
+}
+
 public struct AIDynamic{
 	public Vector3 Linear;
 	public float Angular;
@@ -18,6 +30,9 @@ public class  AIState{
 
 public abstract class AIBehaviour {
 	public AIState State;
+
+	public abstract AIBehaviourType BehaviourType{ get;}
+	public float Weight{ get; set; }
 
 	public static Vector3 GetVectorFromDirection2D(float y_angle){
 		float x = Mathf.Cos (y_angle);

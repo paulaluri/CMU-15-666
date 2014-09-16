@@ -46,12 +46,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AIAlign.cs" />
-     <Compile Include="Assets\Scripts\AIArrive.cs" />
-     <Compile Include="Assets\Scripts\AIBehaviour.cs" />
-     <Compile Include="Assets\Scripts\AIWander.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AIAlign.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AIArrive.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AIBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AICohere.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AICollisionAvoid.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AIFlee.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AIObjectAvoid.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AISeek.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AISeparate.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AIWander.cs" />
+     <Compile Include="Assets\Scripts\Formations\AICohesion.cs" />
+     <Compile Include="Assets\Scripts\Formations\AIFlock.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\PostBlink.cs" />
      <Compile Include="Assets\Scripts\TrooperAI.cs" />
+     <Compile Include="Assets\Test.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />

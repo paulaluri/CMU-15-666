@@ -7,9 +7,14 @@ public class AIArrive : AIBehaviour {
 	private float SLOW_RADIUS = 5f;
 	private float TIME_TO_TARGET = 0.1f;
 
-	public AIArrive(AIState state, Transform obj){
+	public AIArrive(AIState state, Transform obj, float weight){
 		trans = obj;
 		this.State = state;
+		this.Weight = weight;
+	}
+
+	public override AIBehaviourType BehaviourType {
+		get { return AIBehaviourType.ReachGoal; }
 	}
 	
 	public override AIDynamic GetDynamics(){

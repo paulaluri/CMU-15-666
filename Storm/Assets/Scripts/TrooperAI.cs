@@ -1,77 +1,149 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class TrooperAI : MonoBehaviour {
 	public Transform target;
+	public AIBehaviourType BehaviourSetting;
+	public bool leader = false;
+	public Transform[] targets;
 
-	private AIArrive arrive;
-	private AIWander wander;
-	private AIAlign align;
+	private List<AIBehaviour> behaviours;
+	
+	private AISeparate separation;
+	private AICollisionAvoid avoid;
+	private AIObjectAvoid rayAvoid;
 	private AIState state;
 	private Animator animator;
-	private AIDynamic align_info;
-	private AIDynamic arrive_info;
+
+	public void SetSeparationTargets(Transform[] targets){
+		separation.Targets = targets;
+		avoid.Targets = targets;
+	}
+
+	public Vector3 GetVelocity(){
+		return state.LinearVelocity;
+	}
 
 	// Use this for initialization
-	void Start () {
-		state = new AIState();
-
+	void Awake () {
 		//Initialize state
+		state = new AIState();
      	state.MaxLinearAcceleration = 5f;
 		state.AngularVelocity = 0f;
 		state.MaxAngularAcceleration = 10f;
 		state.MaxLinearVelocity = new Vector3(5f, 0, 5f);
 		state.MaxAngularVelocity = 10f;
-
 		state.LinearVelocity = state.MaxLinearVelocity.magnitude * this.transform.forward;
+		if(target != null){
+		    Vector3 temp = target.position;
+		    temp.y = 0;
+		    state.Target = temp;
+		}
+		else
+			state.Target = Vector3.zero;
 
-		Vector3 temp = target.position;
-		temp.y = 0;
-		state.Target = temp;
-
+		//Reference animator
 		animator = this.GetComponent<Animator>();
-		animator.SetBool ("run", true);
+		//Mandatory Behaviours
+		behaviours = new List<AIBehaviour>();
+
+		AISeek seek = new AISeek(state, this.transform, 1f);
+		behaviours.Add (seek);
+		rayAvoid = new AIObjectAvoid(state, this.transform, 10f, seek);
+		behaviours.Add (rayAvoid);
+		behaviours.Add (new AIAlign(state, this.transform, 1f));
+		separation = new AISeparate(state, this.transform, .3f);
+		behaviours.Add (separation);
+		avoid = new AICollisionAvoid(state, this.transform, 3f);
+		behaviours.Add (avoid);
+
+        if(BehaviourSetting == AIBehaviourType.ReachGoal)
+			behaviours.Add (new AIArrive(state, this.transform, .4f));
+		else if(BehaviourSetting == AIBehaviourType.Wander)
+			behaviours.Add (new AIWander(state, this.transform, .1f));
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-		Debug.DrawLine (this.transform.position, this.transform.position + state.LinearVelocity * 5, Color.cyan, 30);
-		//Debug.DrawLine (this.transform.position, this.transform.position + this.transform.forward * 5, Color.yellow, 30);
-
-		/* Behaviours */
+		//RUN BEHAVIOURS
 		AIDynamic movement = new AIDynamic();
+		movement = RunBehaviours();
 
-		wander = new AIWander(state, this.transform);
-		align = new AIAlign(state, this.transform);
-		arrive = new AIArrive(state, this.transform);
-		//AIDynamic wander_info = wander.GetDynamics();
-		align_info = align.GetDynamics();
-		arrive_info = arrive.GetDynamics();
+		//UPDATE POSITION
+		PositionUpdate (movement);
 
-		if(Mathf.Abs((this.transform.position - this.state.Target).magnitude) < 4f)
-			animator.SetBool("run", false);
+		//ANIMATION
+		animator.SetFloat ("velocity", state.LinearVelocity.magnitude);
+		if(state.LinearVelocity.magnitude > 0.1f)
+		    animator.speed = state.LinearVelocity.magnitude / state.MaxLinearVelocity.magnitude;
+		else
+			animator.speed = 1;
 
-		movement.Angular = align_info.Angular;
-		movement.Linear = arrive_info.Linear;
-		/* Update Position */
+		//TOROIDAL
+		PositionWrap();
+	}
 
+	//Wrap position of object to plane
+	private void PositionWrap(){
+		float x = this.transform.position.x;
+		float z = this.transform.position.z;
+		
+		if(x > 75)
+			x -= 150;
+		else if(x < -75)
+			x += 150;
+		
+		if(z > 75)
+			z -= 150;
+		else if(z < -75)
+			z += 150;
+		
+		Vector3 newPos = new Vector3(x, 0f, z);
+		this.transform.position = newPos;
+	}
+	
+	private void PositionUpdate(AIDynamic motion){
 		//Set linear velocity to max
 		if(state.LinearVelocity.magnitude > state.MaxLinearVelocity.magnitude)
 			state.LinearVelocity = state.LinearVelocity.normalized * state.MaxLinearVelocity.magnitude;
-
+		
 		//Set angular velocity to max
 		if(Mathf.Abs (state.AngularVelocity) > Mathf.Abs (state.MaxAngularVelocity))
 			state.AngularVelocity = (state.AngularVelocity / Mathf.Abs (state.AngularVelocity)) * state.MaxAngularVelocity;
 
 		//Update position and linear velocity
 		this.transform.position += state.LinearVelocity * Time.deltaTime;
-		state.LinearVelocity += movement.Linear * Time.deltaTime;
-
+		state.LinearVelocity += motion.Linear * Time.deltaTime;
+		
 		//Update orientation and angular velocity
 		Vector3 rotation = this.transform.rotation.eulerAngles;
 		rotation.y += state.AngularVelocity * Time.deltaTime;
 		this.transform.rotation = Quaternion.Euler (rotation);
-		state.AngularVelocity += movement.Angular * Time.deltaTime;
+		state.AngularVelocity += motion.Angular * Time.deltaTime;
+	}
+	
+	private AIDynamic RunBehaviours(){
+		AIDynamic movement = new AIDynamic();
+		AIDynamic avoidDyn = new AIDynamic();
+
+		//Iterate through behaviours
+		foreach(AIBehaviour b in behaviours){
+			AIDynamic dyn = b.GetDynamics();
+
+		    movement.Angular += dyn.Angular * b.Weight;
+			movement.Linear += dyn.Linear * b.Weight;
+
+			if(b.BehaviourType == AIBehaviourType.ObjectAvoid || b.BehaviourType == AIBehaviourType.CollisionAvoid)
+				avoidDyn.Linear += dyn.Linear * b.Weight * 5f;
+		}
+
+		
+		if(avoidDyn.Linear.magnitude > 0){
+			movement.Linear = avoidDyn.Linear;
+		}
+
+		return movement;
 	}
 }
